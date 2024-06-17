@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.launchcode.techjobs.persistent.TestCommentedTests" tests="2" skipped="0" failures="2" errors="0" timestamp="2024-06-17T19:25:00" hostname="DESKTOP-0MLKF9H" time="0.054">
+  <properties/>
+  <testcase name="testTaskFourTestNumber()" classname="org.launchcode.techjobs.persistent.TestCommentedTests" time="0.048">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;19&gt; but was: &lt;15&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;19&gt; but was: &lt;15&gt;
+	at app//org.launchcode.techjobs.persistent.TestCommentedTests.testTaskFourTestNumber(TestCommentedTests.java:23)
+</failure>
+  </testcase>
+  <testcase name="testTaskTwoTestNumber()" classname="org.launchcode.techjobs.persistent.TestCommentedTests" time="0.004">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;36&gt; but was: &lt;27&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;36&gt; but was: &lt;27&gt;
+	at app//org.launchcode.techjobs.persistent.TestCommentedTests.testTaskTwoTestNumber(TestCommentedTests.java:16)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

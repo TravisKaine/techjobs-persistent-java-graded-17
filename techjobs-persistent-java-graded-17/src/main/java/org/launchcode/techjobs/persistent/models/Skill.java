@@ -1,0 +1,45 @@
+package org.launchcode.techjobs.persistent.models;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.ManyToMany;
+
+import java.util.ArrayList;
+import java.util.List;
+
+@Entity
+public class Skill extends AbstractEntity {
+
+    //TASK 4.1 In your Skill class, add a jobs field.
+    @ManyToMany(mappedBy = "skills")
+    private List<Job> jobs = new ArrayList<>();
+
+    //add a description field
+    private String description;
+
+    //no args constructor
+    public Skill() {
+    }
+
+    public Skill(String description) {
+        super();
+        this.description = description;
+    }
+
+    //public access methods
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    //Add a getter and setter for the field (setter can't be generated ?? )
+    public List<Job> getJobs() {
+        return jobs;
+    }
+
+    public void setJobs(List<Job> jobs) {
+        this.jobs = jobs;
+    }
+}
